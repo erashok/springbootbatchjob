@@ -1,0 +1,810 @@
+2021-01-25 22:58:52.137  INFO 19232 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 19232 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 22:58:52.138  INFO 19232 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-25 22:58:52.377  INFO 19232 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.489 seconds (JVM running for 1.359)
+2021-01-25 22:58:59.476  INFO 17992 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 17992 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 22:58:59.480  INFO 17992 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 22:59:00.215  INFO 17992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 22:59:00.293  INFO 17992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+2021-01-25 22:59:01.286  INFO 17992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2021-01-25 22:59:01.297  INFO 17992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 22:59:01.298  INFO 17992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 22:59:01.370  INFO 17992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 22:59:01.371  INFO 17992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1822 ms
+2021-01-25 22:59:01.733  INFO 17992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 22:59:01.850  INFO 17992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 22:59:02.098  INFO 17992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 22:59:02.248  INFO 17992 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 22:59:02.945  INFO 17992 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 22:59:02.987  INFO 17992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:00:30.704  INFO 17992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:00:30.713  INFO 17992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 23:00:30.871  INFO 17992 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:00:30.873  INFO 17992 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:00:30.946  INFO 17992 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:00:31.194  WARN 17992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 23:00:31.521  INFO 17992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 23:00:31.733  WARN 17992 --- [main] o.s.b.a.batch.JpaBatchConfigurer         : JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2021-01-25 23:00:31.740  INFO 17992 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: ORACLE
+2021-01-25 23:00:31.764  INFO 17992 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2021-01-25 23:00:31.844  INFO 17992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2021-01-25 23:00:31.858  INFO 17992 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 92.855 seconds (JVM running for 93.392)
+2021-01-25 23:01:51.815  INFO 17992 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 23:01:51.816  INFO 17992 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 23:01:51.820  INFO 17992 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-25 23:01:51.825  INFO 17992 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-25 23:01:59.322  INFO 12140 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 12140 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:01:59.323  INFO 12140 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-25 23:01:59.567  INFO 12140 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.496 seconds (JVM running for 1.353)
+2021-01-25 23:02:04.718  INFO 12496 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 12496 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:02:04.722  INFO 12496 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 23:02:05.479  INFO 12496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 23:02:05.557  INFO 12496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2021-01-25 23:02:06.655  INFO 12496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2021-01-25 23:02:06.666  INFO 12496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 23:02:06.666  INFO 12496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 23:02:06.737  INFO 12496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 23:02:06.738  INFO 12496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2021-01-25 23:02:07.099  INFO 12496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 23:02:07.218  INFO 12496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 23:02:07.487  INFO 12496 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 23:02:07.631  INFO 12496 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 23:02:08.202  INFO 12496 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 23:02:08.246  INFO 12496 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:03:36.592  INFO 12496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:03:36.602  INFO 12496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 23:03:36.756  INFO 12496 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:03:36.759  INFO 12496 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:03:36.832  INFO 12496 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:03:37.100  WARN 12496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 23:03:37.438  INFO 12496 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 23:03:37.688  WARN 12496 --- [main] o.s.b.a.batch.JpaBatchConfigurer         : JPA does not support custom isolation levels, so locks may not be taken when launching Jobs
+2021-01-25 23:03:37.696  INFO 12496 --- [main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: ORACLE
+2021-01-25 23:03:37.723  INFO 12496 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2021-01-25 23:03:37.803  INFO 12496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2021-01-25 23:03:37.814  INFO 12496 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 93.587 seconds (JVM running for 94.079)
+2021-01-25 23:04:05.791  INFO 12496 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 23:04:05.792  INFO 12496 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-25 23:04:05.802  INFO 12496 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-01-25 23:04:05.862  INFO 12496 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:04:05.946  INFO 12496 --- [http-nio-9093-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=ETL-Load]] launched with the following parameters: [{fmrinput=F://microservices//CsvFileRepository//MssFileProcessing40.csv}]
+2021-01-25 23:04:05.988  INFO 12496 --- [http-nio-9093-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [ETL-file-load]
+2021-01-25 23:04:08.412  INFO 12496 --- [http-nio-9093-exec-1] o.s.batch.core.step.AbstractStep         : Step: [ETL-file-load] executed in 2s424ms
+2021-01-25 23:04:08.430  INFO 12496 --- [http-nio-9093-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=ETL-Load]] completed with the following parameters: [{fmrinput=F://microservices//CsvFileRepository//MssFileProcessing40.csv}] and the following status: [COMPLETED] in 2s455ms
+2021-01-25 23:04:08.451  INFO 12496 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1175400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    54416500 nanoseconds spent preparing 2000 JDBC statements;
+    569306300 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1687269500 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:08:55.764  INFO 12496 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 23:08:55.764  INFO 12496 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 23:08:55.768  INFO 12496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-25 23:08:55.774  INFO 12496 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-25 23:09:04.601  INFO 20540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 20540 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:09:04.603 DEBUG 20540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:09:04.603  INFO 20540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-25 23:09:04.839  INFO 20540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.499 seconds (JVM running for 1.35)
+2021-01-25 23:09:43.803 TRACE 15004 --- [main] org.springframework.beans.BeanUtils      : No property editor [org.springframework.boot.logging.LogLevelEditor] found for type org.springframework.boot.logging.LogLevel according to 'Editor' suffix convention
+2021-01-25 23:09:43.953  INFO 15004 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 15004 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:09:43.953 DEBUG 15004 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:09:43.955  INFO 15004 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 23:09:45.396 DEBUG 15004 --- [main] o.a.catalina.core.AprLifecycleListener   : The Apache Tomcat Native library could not be found using names [tcnative-1, libtcnative-1] on the java.library.path [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\soft\WINDOWS.X64_193000_db_home\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;E:\soft\apache-maven-3.6.3\bin;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\Bitvise SSH Client;E:\soft\apache-maven-3.6.3\bin;C:\Go\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ervip\go\bin;C:\Users\ervip\AppData\Local\Microsoft\WindowsApps;C:\Users\ervip\AppData\Roaming\npm;C:\Users\ervip\AppData\Local\GitHubDesktop\bin;.]. The errors reported were [Can't load library: F:\microservices\Batch-Job-MSS\bin\tcnative-1.dll, Can't load library: F:\microservices\Batch-Job-MSS\bin\libtcnative-1.dll, no tcnative-1 in java.library.path, no libtcnative-1 in java.library.path]
+
+org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: F:\microservices\Batch-Job-MSS\bin\tcnative-1.dll, Can't load library: F:\microservices\Batch-Job-MSS\bin\libtcnative-1.dll, no tcnative-1 in java.library.path, no libtcnative-1 in java.library.path
+	at org.apache.tomcat.jni.Library.<init>(Library.java:102) ~[tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.tomcat.jni.Library.initialize(Library.java:206) ~[tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:193) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:102) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getDefaultLifecycleListeners(TomcatServletWebServerFactory.java:168) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.<init>(TomcatServletWebServerFactory.java:119) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:75) [spring-boot-autoconfigure-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:635) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) ~[spring-context-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at com.bankfab.fabepay.FabePayMSSBatch.main(FabePayMSSBatch.java:14) ~[classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:107) ~[FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+
+2021-01-25 23:09:45.530 DEBUG 15004 --- [main] o.apache.tomcat.util.compat.Jre9Compat   : Class not found so assuming code is running on a pre-Java 9 JVM
+
+java.lang.ClassNotFoundException: java.lang.reflect.InaccessibleObjectException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_201]
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:151) ~[FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_201]
+	at org.apache.tomcat.util.compat.Jre9Compat.<clinit>(Jre9Compat.java:81) ~[tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.tomcat.util.compat.JreCompat.<clinit>(JreCompat.java:55) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.catalina.startup.Tomcat.<clinit>(Tomcat.java:1300) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:177) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-5.2.9.RELEASE.jar!/:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar!/:2.3.4.RELEASE]
+	at com.bankfab.fabepay.FabePayMSSBatch.main(FabePayMSSBatch.java:14) [classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_201]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) [FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:107) [FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) [FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) [FabePayMSSBatch-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+
+2021-01-25 23:09:45.764 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=9093)
+2021-01-25 23:09:45.774 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2021-01-25 23:09:45.775 DEBUG 15004 --- [main] org.apache.tomcat.util.net.NioEndpoint   : Set [bindOnInit] to [false]
+2021-01-25 23:09:45.776 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2021-01-25 23:09:45.780 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2021-01-25 23:09:45.781 DEBUG 15004 --- [main] org.apache.tomcat.util.net.NioEndpoint   : Set [maxPostSize] to [2097152]
+2021-01-25 23:09:45.781 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2021-01-25 23:09:45.802 DEBUG 15004 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2021-01-25 23:09:45.832 DEBUG 15004 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[default] TomcatEmbeddedContext[]
+2021-01-25 23:09:45.838 DEBUG 15004 --- [main] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2021-01-25 23:09:45.852 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2021-01-25 23:09:45.852 DEBUG 15004 --- [main] org.apache.tomcat.util.net.NioEndpoint   : Set [parseBodyMethods] to [POST]
+2021-01-25 23:09:45.852 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2021-01-25 23:09:45.853  INFO 15004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 23:09:45.854  INFO 15004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 23:09:45.856 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Starting ROOT
+2021-01-25 23:09:45.863 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2021-01-25 23:09:45.887 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2021-01-25 23:09:45.888 DEBUG 15004 --- [main] org.apache.catalina.loader.WebappLoader  : Starting this Loader
+2021-01-25 23:09:45.899 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesRmiTargets=false)
+2021-01-25 23:09:45.901 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesStopThreads=false)
+2021-01-25 23:09:45.901 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesStopTimerThreads=false)
+2021-01-25 23:09:45.901 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesHttpClientKeepAliveThread=true)
+2021-01-25 23:09:45.902 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesObjectStreamClassCaches=false)
+2021-01-25 23:09:45.902 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesObjectStreamClassCaches=false)
+2021-01-25 23:09:45.902 DEBUG 15004 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader clearReferencesThreadLocals=false)
+2021-01-25 23:09:45.925 DEBUG 15004 --- [main] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2021-01-25 23:09:45.926 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2021-01-25 23:09:45.944 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2021-01-25 23:09:45.952  INFO 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 23:09:45.974 DEBUG 15004 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2021-01-25 23:09:45.979 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Configuring application event listeners
+2021-01-25 23:09:45.979 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Configuring event listener class 'org.apache.tomcat.websocket.server.WsContextListener'
+2021-01-25 23:09:45.981 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2021-01-25 23:09:45.997 DEBUG 15004 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2021-01-25 23:09:45.998 DEBUG 15004 --- [main] o.a.catalina.session.StandardManager     : Loading persisted sessions from [SESSIONS.ser]
+2021-01-25 23:09:45.999 DEBUG 15004 --- [main] o.a.catalina.session.StandardManager     : No persisted data file found
+2021-01-25 23:09:46.000 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2021-01-25 23:09:46.000 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2021-01-25 23:09:46.002 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2021-01-25 23:09:46.003 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2021-01-25 23:09:46.003 DEBUG 15004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2021-01-25 23:09:46.003 DEBUG 15004 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2021-01-25 23:09:46.006 DEBUG 15004 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2021-01-25 23:09:46.006 DEBUG 15004 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [default] in Context [] for service [StandardService[Tomcat]]
+2021-01-25 23:09:46.007 DEBUG 15004 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2021-01-25 23:09:46.007 DEBUG 15004 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2021-01-25 23:09:46.007 DEBUG 15004 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2021-01-25 23:09:46.319  INFO 15004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 23:09:46.436  INFO 15004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 23:09:46.682  INFO 15004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 23:09:46.820  INFO 15004 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 23:09:47.396  INFO 15004 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 23:09:47.439  INFO 15004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:10:46.013 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1611601846013 sessioncount 0
+2021-01-25 23:11:15.662 TRACE 15004 --- [main] t.h.UniqueConstraintSchemaUpdateStrategy : Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+2021-01-25 23:13:20.237 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 154223 expired sessions: 0
+2021-01-25 23:13:20.246  INFO 15004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:13:20.421  INFO 15004 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:13:20.422  INFO 15004 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:13:20.495  INFO 15004 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:13:21.383 DEBUG 15004 --- [http-nio-9093-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-9093-Acceptor] latch=0
+2021-01-25 23:13:21.399  INFO 15004 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 217.919 seconds (JVM running for 218.403)
+2021-01-25 23:13:22.381 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602002381; nextExpiration=0; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:23.383 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602003383; nextExpiration=1611602003381; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:24.385 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602004385; nextExpiration=1611602004383; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:25.386 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602005386; nextExpiration=1611602005385; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:26.387 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602006387; nextExpiration=1611602006386; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:27.390 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602007390; nextExpiration=1611602007387; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:28.391 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602008391; nextExpiration=1611602008390; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:29.392 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602009392; nextExpiration=1611602009391; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:30.394 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602010394; nextExpiration=1611602010392; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:31.396 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602011396; nextExpiration=1611602011394; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:32.398 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602012398; nextExpiration=1611602012396; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:33.399 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602013399; nextExpiration=1611602013398; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:34.399 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602014399; nextExpiration=1611602014399; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:35.401 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602015401; nextExpiration=1611602015399; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:36.403 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602016403; nextExpiration=1611602016401; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:37.404 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602017404; nextExpiration=1611602017403; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:38.405 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602018405; nextExpiration=1611602018404; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:39.406 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602019406; nextExpiration=1611602019405; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:40.408 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602020408; nextExpiration=1611602020406; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:41.409 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602021409; nextExpiration=1611602021408; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:42.410 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602022410; nextExpiration=1611602022409; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:43.411 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602023411; nextExpiration=1611602023410; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:44.412 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602024412; nextExpiration=1611602024411; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:45.413 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602025413; nextExpiration=1611602025412; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:46.414 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602026414; nextExpiration=1611602026413; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:47.416 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602027416; nextExpiration=1611602027414; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:48.417 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602028417; nextExpiration=1611602028416; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:49.418 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602029418; nextExpiration=1611602029417; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:50.420 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602030420; nextExpiration=1611602030418; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:51.421 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602031421; nextExpiration=1611602031420; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:52.422 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602032422; nextExpiration=1611602032421; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:53.422 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602033422; nextExpiration=1611602033422; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:54.424 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602034424; nextExpiration=1611602034422; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:55.426 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602035426; nextExpiration=1611602035424; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:56.427 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602036427; nextExpiration=1611602036426; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:57.428 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602037428; nextExpiration=1611602037427; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:58.430 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602038430; nextExpiration=1611602038428; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:13:59.430 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602039430; nextExpiration=1611602039430; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:00.431 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602040431; nextExpiration=1611602040430; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:01.431 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602041431; nextExpiration=1611602041431; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:02.433 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602042433; nextExpiration=1611602042431; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:03.434 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602043434; nextExpiration=1611602043433; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:04.435 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602044435; nextExpiration=1611602044434; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:05.437 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602045437; nextExpiration=1611602045435; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:05.948 DEBUG 15004 --- [http-nio-9093-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-9093-Acceptor] latch=1
+2021-01-25 23:14:05.978 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]], Read from buffer: [0]
+2021-01-25 23:14:05.979 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]], Read direct from socket: [739]
+2021-01-25 23:14:06.002 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.http.Parameters   : Set query string encoding to UTF-8
+2021-01-25 23:14:06.005 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /api/processMssFileETL
+2021-01-25 23:14:06.006 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2021-01-25 23:14:06.011 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.a.jaspic.AuthConfigFactoryImpl     : Loading persistent provider registrations from [C:\Users\ervip\AppData\Local\Temp\tomcat.4773139115517159830.9093\conf\jaspic-providers.xml]
+2021-01-25 23:14:06.012 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.authenticator.AuthenticatorBase    : Not subject to any constraint
+2021-01-25 23:14:06.015  INFO 15004 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 23:14:06.023 DEBUG 15004 --- [http-nio-9093-exec-1] o.apache.catalina.core.StandardWrapper   :   Returning non-STM instance
+2021-01-25 23:14:06.057 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2021-01-25 23:14:06.057 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.http.Parameters   : Decoding query null UTF-8
+2021-01-25 23:14:06.058 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.http.Parameters   : Start processing with input [filePath=F://microservices//CsvFileRepository//MssFileProcessing41.csv]
+2021-01-25 23:14:06.068 DEBUG 15004 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ***********************************************************
+2021-01-25 23:14:06.069  INFO 15004 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:14:06.200 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(java.lang.ObjectCustomizer)
+2021-01-25 23:14:06.201 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(java.lang.ObjectCustomizer)
+2021-01-25 23:14:06.203 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.203 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.204 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(org.springframework.batch.repeat.context.SynchronizedAttributeAccessorCustomizer)
+2021-01-25 23:14:06.205 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(org.springframework.batch.repeat.context.SynchronizedAttributeAccessorCustomizer)
+2021-01-25 23:14:06.206 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.206 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.207 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(org.springframework.batch.core.scope.context.StepContextCustomizer)
+2021-01-25 23:14:06.207 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(org.springframework.batch.core.scope.context.StepContextCustomizer)
+2021-01-25 23:14:06.208 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.209 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.210 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(org.springframework.core.AttributeAccessorCustomizer)
+2021-01-25 23:14:06.210 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(org.springframework.core.AttributeAccessorCustomizer)
+2021-01-25 23:14:06.212 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.215 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.300 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(java.lang.ObjectCustomizer)
+2021-01-25 23:14:06.301 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(java.lang.ObjectCustomizer)
+2021-01-25 23:14:06.301 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.302 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.303 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     findClass(com.bankfab.fabepay.domain.MerchantSSCustomizer)
+2021-01-25 23:14:06.304 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :       findClassInternal(com.bankfab.fabepay.domain.MerchantSSCustomizer)
+2021-01-25 23:14:06.305 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-01-25 23:14:06.305 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.c.loader.WebappClassLoaderBase       :     --> Passing on ClassNotFoundException
+2021-01-25 23:14:06.950 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602046950; nextExpiration=1611602046437; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:07.950 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602047950; nextExpiration=1611602047950; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:08.951 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602048951; nextExpiration=1611602048950; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:08.959  INFO 15004 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1339900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    54172400 nanoseconds spent preparing 2000 JDBC statements;
+    851868800 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1987870600 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:14:08.962 DEBUG 15004 --- [http-nio-9093-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]], Read from buffer: [0]
+2021-01-25 23:14:08.971 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]], Read direct from socket: [0]
+2021-01-25 23:14:08.972 DEBUG 15004 --- [http-nio-9093-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]]
+2021-01-25 23:14:09.973 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602049973; nextExpiration=1611602049951; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:10.974 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602050974; nextExpiration=1611602050973; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:11.975 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602051975; nextExpiration=1611602051974; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:12.976 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602052976; nextExpiration=1611602052975; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:13.977 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602053977; nextExpiration=1611602053976; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:14.978 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602054978; nextExpiration=1611602054977; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:15.979 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602055979; nextExpiration=1611602055978; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:16.980 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602056980; nextExpiration=1611602056979; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:17.981 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602057981; nextExpiration=1611602057980; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:18.982 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602058982; nextExpiration=1611602058981; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:19.983 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602059983; nextExpiration=1611602059982; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:20.256 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1611602060256 sessioncount 0
+2021-01-25 23:14:20.256 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-01-25 23:14:20.985 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602060985; nextExpiration=1611602060983; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:21.985 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602061985; nextExpiration=1611602061985; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:22.987 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602062987; nextExpiration=1611602062985; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:23.988 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602063988; nextExpiration=1611602063987; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:24.989 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602064989; nextExpiration=1611602064988; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:25.990 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602065990; nextExpiration=1611602065989; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:26.990 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602066990; nextExpiration=1611602066990; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:27.992 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602067992; nextExpiration=1611602067990; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:28.994 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602068994; nextExpiration=1611602068992; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:29.995 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602069995; nextExpiration=1611602069994; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:30.997 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602070997; nextExpiration=1611602070995; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:31.999 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602071999; nextExpiration=1611602071997; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:33.000 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602073000; nextExpiration=1611602072999; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:34.000 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602074000; nextExpiration=1611602074000; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:35.002 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602075002; nextExpiration=1611602075000; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:36.002 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602076002; nextExpiration=1611602076002; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:37.003 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602077003; nextExpiration=1611602077002; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:38.005 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602078005; nextExpiration=1611602078003; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:39.006 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602079006; nextExpiration=1611602079005; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:40.007 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602080007; nextExpiration=1611602080006; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:41.009 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602081009; nextExpiration=1611602081007; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:42.010 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602082010; nextExpiration=1611602082009; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:43.012 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602083012; nextExpiration=1611602083010; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:44.013 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602084013; nextExpiration=1611602084012; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:45.014 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602085014; nextExpiration=1611602085013; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:46.016 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602086016; nextExpiration=1611602086014; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:47.016 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602087016; nextExpiration=1611602087016; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:48.018 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602088018; nextExpiration=1611602088016; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:49.019 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602089019; nextExpiration=1611602089018; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:50.020 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602090020; nextExpiration=1611602090019; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:51.022 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602091022; nextExpiration=1611602091020; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:52.024 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602092024; nextExpiration=1611602092022; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:53.025 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602093025; nextExpiration=1611602093024; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:54.026 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602094026; nextExpiration=1611602094025; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:55.027 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602095027; nextExpiration=1611602095026; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:56.029 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602096029; nextExpiration=1611602096027; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:57.029 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602097029; nextExpiration=1611602097029; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:58.030 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602098030; nextExpiration=1611602098029; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:14:59.032 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602099032; nextExpiration=1611602099030; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:00.034 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602100034; nextExpiration=1611602100032; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:01.035 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602101035; nextExpiration=1611602101034; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:02.036 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602102036; nextExpiration=1611602102035; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:03.038 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602103038; nextExpiration=1611602103036; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:04.039 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602104039; nextExpiration=1611602104038; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:05.042 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602105042; nextExpiration=1611602105039; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:06.043 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602106043; nextExpiration=1611602106042; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:07.045 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602107045; nextExpiration=1611602107043; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:08.045 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602108045; nextExpiration=1611602108045; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:09.046 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=1; now=1611602109046; nextExpiration=1611602109045; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:09.046 DEBUG 15004 --- [http-nio-9093-exec-3] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-9093-exec-3] latch=1
+2021-01-25 23:15:09.049 DEBUG 15004 --- [http-nio-9093-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@a58b37b].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5bc159a:org.apache.tomcat.util.net.NioChannel@40be9b49:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:9093 remote=/0:0:0:0:0:0:0:1:64401]])
+2021-01-25 23:15:10.048 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602110048; nextExpiration=1611602110046; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:11.049 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602111049; nextExpiration=1611602111048; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:12.050 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602112050; nextExpiration=1611602112049; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:13.050 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602113050; nextExpiration=1611602113050; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:14.052 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602114052; nextExpiration=1611602114050; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:15.053 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602115053; nextExpiration=1611602115052; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:16.054 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602116054; nextExpiration=1611602116053; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:17.056 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602117056; nextExpiration=1611602117054; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:18.058 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602118058; nextExpiration=1611602118056; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:19.059 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602119059; nextExpiration=1611602119058; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:20.060 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602120060; nextExpiration=1611602120059; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:20.266 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1611602120266 sessioncount 0
+2021-01-25 23:15:20.268 DEBUG 15004 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-01-25 23:15:21.062 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602121062; nextExpiration=1611602121060; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:22.062 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602122062; nextExpiration=1611602122062; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:23.064 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602123064; nextExpiration=1611602123062; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:24.064 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602124064; nextExpiration=1611602124064; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:25.066 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602125066; nextExpiration=1611602125064; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:26.066 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602126066; nextExpiration=1611602126066; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:27.067 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602127067; nextExpiration=1611602127066; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:28.069 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602128069; nextExpiration=1611602128067; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:29.070 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602129070; nextExpiration=1611602129069; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:30.072 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602130072; nextExpiration=1611602130070; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:31.073 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602131073; nextExpiration=1611602131072; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:32.074 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602132074; nextExpiration=1611602132073; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:33.075 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602133075; nextExpiration=1611602133074; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:34.075 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602134075; nextExpiration=1611602134075; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:35.076 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602135076; nextExpiration=1611602135075; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:36.076 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602136076; nextExpiration=1611602136076; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:37.077 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602137077; nextExpiration=1611602137076; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:38.077 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602138077; nextExpiration=1611602138077; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:39.078 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602139078; nextExpiration=1611602139077; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:40.079 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602140079; nextExpiration=1611602140078; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:41.082 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602141082; nextExpiration=1611602141079; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:42.084 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602142084; nextExpiration=1611602142082; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:43.085 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602143085; nextExpiration=1611602143084; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:44.086 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602144086; nextExpiration=1611602144085; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:45.087 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602145087; nextExpiration=1611602145086; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:46.088 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602146088; nextExpiration=1611602146087; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:47.091 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602147091; nextExpiration=1611602147088; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:48.092 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602148092; nextExpiration=1611602148091; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:49.093 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602149093; nextExpiration=1611602149092; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:50.094 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602150094; nextExpiration=1611602150093; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:51.096 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602151096; nextExpiration=1611602151094; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:52.097 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602152097; nextExpiration=1611602152096; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:53.098 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602153098; nextExpiration=1611602153097; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:54.099 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602154099; nextExpiration=1611602154098; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:55.100 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602155100; nextExpiration=1611602155099; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:56.102 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602156102; nextExpiration=1611602156100; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:57.103 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602157103; nextExpiration=1611602157102; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:58.105 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602158105; nextExpiration=1611602158103; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:15:59.106 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602159106; nextExpiration=1611602159105; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:00.107 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602160107; nextExpiration=1611602160106; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:01.108 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602161108; nextExpiration=1611602161107; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:02.108 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602162108; nextExpiration=1611602162108; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:03.110 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602163110; nextExpiration=1611602163108; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:04.111 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602164111; nextExpiration=1611602164110; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:05.111 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602165111; nextExpiration=1611602165111; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:06.113 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602166113; nextExpiration=1611602166111; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:07.115 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602167115; nextExpiration=1611602167113; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:08.115 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602168115; nextExpiration=1611602168115; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:09.117 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602169117; nextExpiration=1611602169115; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:10.118 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602170118; nextExpiration=1611602170117; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:11.119 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602171119; nextExpiration=1611602171118; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:12.121 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602172121; nextExpiration=1611602172119; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:13.123 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602173123; nextExpiration=1611602173121; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:14.124 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602174124; nextExpiration=1611602174123; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:15.127 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602175127; nextExpiration=1611602175124; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:16.128 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602176128; nextExpiration=1611602176127; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:17.129 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602177129; nextExpiration=1611602177128; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:18.130 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602178130; nextExpiration=1611602178129; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:19.131 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602179131; nextExpiration=1611602179130; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:20.134 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602180134; nextExpiration=1611602180131; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:20.278 DEBUG 15004 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1611602180278 sessioncount 0
+2021-01-25 23:16:20.278 DEBUG 15004 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-01-25 23:16:21.135 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602181135; nextExpiration=1611602181134; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:22.137 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602182137; nextExpiration=1611602182135; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:23.138 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602183138; nextExpiration=1611602183137; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:24.139 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602184139; nextExpiration=1611602184138; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:25.141 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602185141; nextExpiration=1611602185139; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:26.141 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602186141; nextExpiration=1611602186141; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:27.142 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602187142; nextExpiration=1611602187141; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:28.144 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602188144; nextExpiration=1611602188142; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:29.145 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602189145; nextExpiration=1611602189144; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:30.146 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602190146; nextExpiration=1611602190145; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:31.147 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602191147; nextExpiration=1611602191146; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:32.148 DEBUG 15004 --- [http-nio-9093-ClientPoller] org.apache.tomcat.util.net.NioEndpoint   : timeout completed: keys processed=0; now=1611602192148; nextExpiration=1611602192147; keyCount=0; hasEvents=false; eval=false
+2021-01-25 23:16:33.034  INFO 15004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-25 23:16:33.040  INFO 15004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-25 23:16:41.012  INFO 9572 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 9572 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:16:41.013 DEBUG 9572 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:16:41.014  INFO 9572 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-25 23:16:41.247  INFO 9572 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.583 seconds (JVM running for 1.528)
+2021-01-25 23:16:48.998  INFO 13556 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 13556 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:16:49.001 DEBUG 13556 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:16:49.002  INFO 13556 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 23:16:50.967  INFO 13556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 23:16:50.967  INFO 13556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 23:16:51.037  INFO 13556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 23:16:51.497  INFO 13556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 23:16:51.621  INFO 13556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 23:16:51.877  INFO 13556 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 23:16:52.016  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 23:16:52.753  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 23:16:52.798  INFO 13556 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:18:20.567  INFO 13556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:18:20.727  INFO 13556 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:18:20.729  INFO 13556 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:18:20.792  INFO 13556 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:18:21.791  INFO 13556 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 93.281 seconds (JVM running for 93.754)
+2021-01-25 23:20:28.435  INFO 13556 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 23:21:38.855 DEBUG 13556 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ***********************************************************
+2021-01-25 23:21:38.855  INFO 13556 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:21:42.021  INFO 13556 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1227200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    55965900 nanoseconds spent preparing 2000 JDBC statements;
+    934815200 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2195478200 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:23:08.338 DEBUG 13556 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : ***********************************************************
+2021-01-25 23:23:08.339  INFO 13556 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:23:10.217  INFO 13556 --- [http-nio-9093-exec-3] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1486800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    35653600 nanoseconds spent preparing 2000 JDBC statements;
+    411372200 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1338092100 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:23:34.778 DEBUG 13556 --- [http-nio-9093-exec-4] c.b.fabepay.controller.LoadController    : ***********************************************************
+2021-01-25 23:23:34.779  INFO 13556 --- [http-nio-9093-exec-4] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:23:36.599  INFO 13556 --- [http-nio-9093-exec-4] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1007900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    32332300 nanoseconds spent preparing 2000 JDBC statements;
+    429169600 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1373388600 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:23:54.669 DEBUG 13556 --- [http-nio-9093-exec-5] c.b.fabepay.controller.LoadController    : ***********************************************************
+2021-01-25 23:23:54.670  INFO 13556 --- [http-nio-9093-exec-5] c.b.fabepay.controller.LoadController    : ****Controller class*******************************************************
+2021-01-25 23:23:56.683  INFO 13556 --- [http-nio-9093-exec-5] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1145600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    22459600 nanoseconds spent preparing 2000 JDBC statements;
+    676957100 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1535657700 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:37:29.781  INFO 13556 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-25 23:37:29.788  INFO 13556 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-25 23:37:44.485  INFO 15540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 15540 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:37:44.486 DEBUG 15540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:37:44.487  INFO 15540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-25 23:37:44.728  INFO 15540 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.544 seconds (JVM running for 1.426)
+2021-01-25 23:37:56.020  INFO 7672 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 7672 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:37:56.023 DEBUG 7672 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:37:56.024  INFO 7672 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 23:37:58.060  INFO 7672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 23:37:58.060  INFO 7672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 23:37:58.134  INFO 7672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 23:37:58.482  INFO 7672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 23:37:58.602  INFO 7672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 23:37:58.864  INFO 7672 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 23:37:59.015  INFO 7672 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 23:37:59.660  INFO 7672 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 23:37:59.704  INFO 7672 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:39:29.999  INFO 7672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:39:30.164  INFO 7672 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:39:30.165  INFO 7672 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:39:30.256  INFO 7672 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:39:31.291  INFO 7672 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 95.766 seconds (JVM running for 96.275)
+2021-01-25 23:44:18.920  INFO 7672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-25 23:44:18.929  INFO 7672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-25 23:44:23.892  INFO 11532 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 11532 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-25 23:44:23.895 DEBUG 11532 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-25 23:44:23.897  INFO 11532 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-25 23:44:25.748  INFO 11532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-25 23:44:25.749  INFO 11532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-25 23:44:25.819  INFO 11532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-25 23:44:26.165  INFO 11532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 23:44:26.302  INFO 11532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 23:44:26.560  INFO 11532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 23:44:26.704  INFO 11532 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-25 23:44:27.347  INFO 11532 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-25 23:44:27.392  INFO 11532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-25 23:45:58.349  INFO 11532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 23:45:58.532  INFO 11532 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:45:58.534  INFO 11532 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:45:58.619  INFO 11532 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-25 23:45:59.592  INFO 11532 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 96.233 seconds (JVM running for 96.714)
