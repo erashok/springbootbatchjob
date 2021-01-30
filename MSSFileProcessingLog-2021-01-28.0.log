@@ -1,0 +1,109 @@
+2021-01-28 10:16:31.033  INFO 13904 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 13904 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-28 10:16:31.036 DEBUG 13904 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-28 10:16:31.037  INFO 13904 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-28 10:16:31.399  INFO 13904 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.888 seconds (JVM running for 2.531)
+2021-01-28 10:16:56.938  INFO 9912 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 9912 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-28 10:16:56.942 DEBUG 9912 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-28 10:16:56.943  INFO 9912 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-28 10:16:58.809  INFO 9912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-28 10:16:58.810  INFO 9912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-28 10:16:58.896  INFO 9912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-28 10:16:59.233  INFO 9912 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-28 10:16:59.356  INFO 9912 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-28 10:16:59.607  INFO 9912 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-28 10:16:59.748  INFO 9912 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-28 10:17:01.436  INFO 9912 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-28 10:17:01.483  INFO 9912 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-28 10:18:29.116  INFO 9912 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-28 10:18:29.282  INFO 9912 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:18:29.284  INFO 9912 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:18:29.359  INFO 9912 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:18:30.336  INFO 9912 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 93.894 seconds (JVM running for 94.388)
+2021-01-28 10:21:29.800  INFO 9912 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-28 10:21:29.848 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : **************Accepting the file F://microservices//CsvFileRepository//MssFileProcessing101.csvFor Processing
+2021-01-28 10:21:30.168 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F://microservices//CsvFileRepository//MssFileProcessing101.csv
+2021-01-28 10:21:31.697 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : datasouce vALIDATIONQueryjdbc:oracle:thin:@//127.0.0.1:1521/ORCL
+2021-01-28 10:21:31.697 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : datasouce autocommittrue
+2021-01-28 10:21:31.697 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : datasouce GETIDLEnull
+2021-01-28 10:21:31.698 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : datasouce getMax20
+2021-01-28 10:21:31.698 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : datasouce getMin2000000 true
+2021-01-28 10:21:31.698 DEBUG 9912 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : ################ ##Successfully Submitted : F://microservices//CsvFileRepository//MssFileProcessing101.csv
+2021-01-28 10:21:31.719  INFO 9912 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1301300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    50156296 nanoseconds spent preparing 2000 JDBC statements;
+    493555507 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    710795300 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:21:31.755  INFO 9912 --- [http-nio-9093-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:21:31.802  INFO 9912 --- [http-nio-9093-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-28 10:22:46.503  INFO 9912 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-28 10:22:46.547  INFO 9912 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-28 10:22:55.340  INFO 1152 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 1152 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-28 10:22:55.341 DEBUG 1152 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-28 10:22:55.342  INFO 1152 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-28 10:22:55.615  INFO 1152 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.585 seconds (JVM running for 1.497)
+2021-01-28 10:28:00.029  INFO 14868 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 14868 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-28 10:28:00.032 DEBUG 14868 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-28 10:28:00.032  INFO 14868 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-28 10:28:00.289  INFO 14868 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.55 seconds (JVM running for 1.439)

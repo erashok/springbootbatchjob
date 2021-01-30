@@ -1,5 +1,6 @@
 package com.bankfab.fabepay.controller;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,6 +23,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.zaxxer.hikari.HikariDataSource;
+
 @RestController
 @RequestMapping("/api/processMssFileETL")
 public class LoadController {
@@ -33,6 +36,9 @@ public class LoadController {
     
     @Autowired
     Job job;
+    
+    @Autowired
+    HikariDataSource SpringBootJPAHikariCP; 
 
     /**
      * This method called using the getmethod will accept the file 
@@ -43,12 +49,19 @@ public class LoadController {
     @GetMapping
     public String processMssFile(@RequestParam String filePath) {
     	String jobStatus="Execution Failed";
-    	
-    	LOGGER.debug("*Accepting the file "+filePath + "For Processing");
+    	File filObj=new File(filePath);
+    	LOGGER.debug("**************Accepting the file "+filePath + "For Processing");
     	try {
+    		if(filObj.exists()) {
     		 JobExecution jobExecution = jobLauncher.run(job, new JobParametersBuilder().addString("fmrinput", filePath).toJobParameters());
     		 jobStatus="Successfully Submitted : "+filePath;
-    		 LOGGER.debug(" ##"+jobStatus);
+    		 LOGGER.debug("datasouce vALIDATIONQuery"+SpringBootJPAHikariCP.getJdbcUrl());
+    		 LOGGER.debug("datasouce autocommit"+SpringBootJPAHikariCP.isAutoCommit());
+    		 LOGGER.debug("datasouce GETIDLE"+SpringBootJPAHikariCP.getConnectionTestQuery());
+    		 LOGGER.debug("datasouce getMax"+SpringBootJPAHikariCP.getMaximumPoolSize());
+    		 LOGGER.debug("datasouce getMin"+SpringBootJPAHikariCP.getMaxLifetime() +" "+SpringBootJPAHikariCP.isRunning());
+    		 LOGGER.debug("################ ##"+jobStatus);
+    		}
     	}catch(Exception e) {
     		e.printStackTrace();
     	}finally {

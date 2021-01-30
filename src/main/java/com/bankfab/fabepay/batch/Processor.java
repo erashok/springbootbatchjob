@@ -18,9 +18,9 @@ public class Processor implements ItemProcessor<MerchantSS, MerchantSS> {
 
 	@Override
 	public MerchantSS process(MerchantSS user) throws Exception {
-		String merchantNumber = user.getMERCHANT_NO();
-		String authid = user.getAUTH_ID();
-		System.out.println(String.format("Converted from [%s] to [%s]", authid, user.getTXN_AMOUNT()));
+		String merchantNumber = user.getMerchantNumber();
+		String authid = user.getAuthId();
+		System.out.println(String.format("Converted from [%s] to [%s]", authid, user.getTxnAmount()));
 		/*
 		 * if (null == merchantNumber && null == authid) { return null; } else { return
 		 * user; }

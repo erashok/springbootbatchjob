@@ -14,24 +14,24 @@ public class DataMerchantFieldSetMapper<T> implements FieldSetMapper<MerchantSS>
 	@Override
 	public MerchantSS mapFieldSet(FieldSet fldSet) throws BindException {
 		MerchantSS merchantss = new MerchantSS();
-		merchantss.setMERCHANT_NO(fldSet.readString("Main Merchant No"));
-		merchantss.setMERCHANT_SUFFIX(fldSet.readString("Suffix"));
-		merchantss.setTERMINAL(fldSet.readString("Terminal"));
-		merchantss.setCOMMERCIAL_NAME(fldSet.readString("Commercial Name"));
-		merchantss.setTXN_DATE(fldSet.readString("Txn Date"));
-		merchantss.setRRN_NUMBER(fldSet.readString("Voucher Nbr / RRN"));
-		merchantss.setCARD_TYPE(fldSet.readString("Card Type"));
-		merchantss.setCARD_NO(fldSet.readString("Card No"));// AUTH_ID TXN_AMOUNT
-		merchantss.setAUTH_ID(fldSet.readString("Auth Id"));
-		merchantss.setCOMM_AMOUNT(fldSet.readString("Comm Amount"));
-		merchantss.setVAT_AMOUNT(fldSet.readString("Vat Amount"));
-		merchantss.setNET_AMOUNT(fldSet.readString("Net Amount"));
-		merchantss.setTXN_CCY(fldSet.readString("Txn Ccy"));
+		merchantss.setMerchantNumber((fldSet.readString("Main Merchant No")));
+		merchantss.setMerchantSuffix((fldSet.readString("Suffix")));
+		merchantss.setTerminal((fldSet.readString("Terminal")));
+		merchantss.setCommercialName((fldSet.readString("Commercial Name")));
+		merchantss.setTxnDate((fldSet.readString("Txn Date")));
+		merchantss.setRrnNumber(fldSet.readString("Voucher Nbr / RRN"));
+		merchantss.setCardType(fldSet.readString("Card Type"));
+		merchantss.setCardNo(fldSet.readString("Card No"));// AUTH_ID TXN_AMOUNT
+		merchantss.setAuthId(fldSet.readString("Auth Id"));
+		merchantss.setCommAmount(fldSet.readString("Comm Amount"));
+		merchantss.setVatAmount(fldSet.readString("Vat Amount"));
+		merchantss.setNetAmount(fldSet.readString("Net Amount"));
+		merchantss.setTxnCcy(fldSet.readString("Txn Ccy"));
 		// BILL_CCY
-		merchantss.setBILL_CCY(fldSet.readString("Bill Ccy"));
-		merchantss.setBILL_AMOUNT(fldSet.readString("Bill Amount"));
-		merchantss.setSETTLEMENT_STATUS("".equals(fldSet.readString("Main Merchant No").trim()) ? "" : "0");
-		merchantss.setCREATED_DATE("".equals(fldSet.readString("Main Merchant No").trim()) ? "" : getCurrentDate());
+		merchantss.setBillCcy(fldSet.readString("Bill Ccy"));
+		merchantss.setBillAmount(fldSet.readString("Bill Amount"));
+		merchantss.setSettlementStatus("".equals(fldSet.readString("Main Merchant No").trim()) ? "" : "0");
+		merchantss.setCreatedDate("".equals(fldSet.readString("Main Merchant No").trim()) ? "" : getCurrentDate());
 		if ("".equals(fldSet.readString("Main Merchant No").trim())) {
 			return null;
 		}

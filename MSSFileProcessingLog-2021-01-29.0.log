@@ -1,0 +1,127 @@
+2021-01-29 22:58:25.359  INFO 9748 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 9748 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-29 22:58:25.362 DEBUG 9748 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-29 22:58:25.363  INFO 9748 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-29 22:58:25.923  INFO 9748 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 1.385 seconds (JVM running for 4.148)
+2021-01-29 22:58:56.950  INFO 5888 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 5888 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-29 22:58:56.957 DEBUG 5888 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-29 22:58:56.959  INFO 5888 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-29 22:59:00.466  INFO 5888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-29 22:59:00.467  INFO 5888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-29 22:59:00.659  INFO 5888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-29 22:59:01.558  INFO 5888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-29 22:59:01.873  INFO 5888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-29 22:59:02.445  INFO 5888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-29 22:59:02.714  INFO 5888 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-29 22:59:08.551  INFO 5888 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-29 22:59:08.606  INFO 5888 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-29 22:59:16.782  INFO 5888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-29 22:59:17.120  INFO 5888 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 22:59:17.123  INFO 5888 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 22:59:17.256  INFO 5888 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 22:59:21.679  INFO 5888 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 25.732 seconds (JVM running for 27.03)
+2021-01-29 23:06:33.501  INFO 5888 --- [http-nio-9093-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/processMssFileETL?filePath=F:\microservices\CsvFileRepository\MssFileProcessing101.csv]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:486) ~[tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar!/:9.0.38]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_201]
+
+2021-01-29 23:06:52.292  INFO 5888 --- [http-nio-9093-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-29 23:06:52.339  INFO 5888 --- [http-nio-9093-exec-5] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 23:06:52.474  INFO 5888 --- [http-nio-9093-exec-5] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 23:09:17.414 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : **************Accepting the file F:/microservices/CsvFileRepository/MssFileProcessing101.csvFor Processing
+2021-01-29 23:09:59.517 DEBUG 5888 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : **************Accepting the file 'F:/microservices/CsvFileRepository/MssFileProcessing101.csv'For Processing
+2021-01-29 23:10:06.753  INFO 5888 --- [http-nio-9093-exec-3] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-29 23:10:14.691 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F:/microservices/CsvFileRepository/MssFileProcessing101.csv
+2021-01-29 23:19:44.238 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : datasouce vALIDATIONQueryjdbc:oracle:thin:@//database-1.c4db9g0e36fr.us-east-2.rds.amazonaws.com:1521/ORCL
+2021-01-29 23:19:44.238 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : datasouce autocommittrue
+2021-01-29 23:19:44.240 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : datasouce GETIDLEnull
+2021-01-29 23:19:44.241 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : datasouce getMax20
+2021-01-29 23:19:44.241 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : datasouce getMin2000000 true
+2021-01-29 23:19:44.241 DEBUG 5888 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : ################ ##Successfully Submitted : F:/microservices/CsvFileRepository/MssFileProcessing101.csv
+2021-01-29 23:19:44.245  INFO 5888 --- [http-nio-9093-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    267072500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    142615400 nanoseconds spent preparing 2000 JDBC statements;
+    531770885400 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    538455408200 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}

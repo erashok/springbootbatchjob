@@ -1,0 +1,689 @@
+2021-01-26 01:32:09.632  INFO 11532 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 01:32:09.646  INFO 11532 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 01:32:51.297  INFO 13604 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 13604 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 01:32:51.299 DEBUG 13604 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 01:32:51.299  INFO 13604 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 01:32:51.545  INFO 13604 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.541 seconds (JVM running for 1.454)
+2021-01-26 01:33:27.382  INFO 20424 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 20424 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 01:33:27.383 DEBUG 20424 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 01:33:27.384  INFO 20424 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 01:33:27.633  INFO 20424 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.551 seconds (JVM running for 1.477)
+2021-01-26 12:06:03.490  INFO 19324 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 19324 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 12:06:03.492 DEBUG 19324 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 12:06:03.493  INFO 19324 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 12:06:03.736  INFO 19324 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.559 seconds (JVM running for 1.458)
+2021-01-26 13:56:01.598  INFO 7160 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 7160 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 13:56:01.599 DEBUG 7160 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 13:56:01.601  INFO 7160 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 13:56:01.882  INFO 7160 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.654 seconds (JVM running for 1.785)
+2021-01-26 13:56:30.402  INFO 23152 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 23152 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 13:56:30.409 DEBUG 23152 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 13:56:30.411  INFO 23152 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 13:56:33.879  INFO 23152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 13:56:33.880  INFO 23152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 13:56:34.008  INFO 23152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 13:56:34.638  INFO 23152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 13:56:34.882  INFO 23152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 13:56:35.352  INFO 23152 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 13:56:35.592  INFO 23152 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 13:56:36.598  INFO 23152 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 13:56:36.694  INFO 23152 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 13:58:52.338  INFO 23152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 13:58:52.612  INFO 23152 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 13:58:52.614  INFO 23152 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 13:58:52.739  INFO 23152 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 13:58:54.460  INFO 23152 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 144.821 seconds (JVM running for 145.432)
+2021-01-26 13:59:49.230  INFO 23152 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 14:00:14.537 DEBUG 23152 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing18.csvFor Processing
+2021-01-26 14:00:14.942  INFO 23152 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1621600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:16:44.379 DEBUG 23152 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing18.csvFor Processing
+2021-01-26 14:16:44.475  INFO 23152 --- [http-nio-9093-exec-3] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1082500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:16:48.938 DEBUG 23152 --- [http-nio-9093-exec-4] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing18.csvFor Processing
+2021-01-26 14:16:48.998  INFO 23152 --- [http-nio-9093-exec-4] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    2176600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:42:11.742  WARN 23152 --- [SpringBootJPAHikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Thread starvation or clock leap detected (housekeeper delta=9m34s956ms376탎100ns).
+2021-01-26 14:46:02.854 DEBUG 23152 --- [http-nio-9093-exec-6] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing18.csvFor Processing
+2021-01-26 14:46:02.932  INFO 23152 --- [http-nio-9093-exec-6] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    3773300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:46:36.935 DEBUG 23152 --- [http-nio-9093-exec-7] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:46:37.099 DEBUG 23152 --- [http-nio-9093-exec-7] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F://microservices//CsvFileRepository//MssFileProcessing47.csv
+2021-01-26 14:46:40.981 DEBUG 23152 --- [http-nio-9093-exec-7] c.b.fabepay.controller.LoadController    :  ##Successfully Submitted : F://microservices//CsvFileRepository//MssFileProcessing47.csv
+2021-01-26 14:46:40.984  INFO 23152 --- [http-nio-9093-exec-7] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1822000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    83648100 nanoseconds spent preparing 2000 JDBC statements;
+    676048400 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    2406482900 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:06.857 DEBUG 23152 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:06.882  INFO 23152 --- [http-nio-9093-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    6737500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:11.725 DEBUG 23152 --- [http-nio-9093-exec-9] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:11.745  INFO 23152 --- [http-nio-9093-exec-9] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    2104100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:12.577 DEBUG 23152 --- [http-nio-9093-exec-10] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:12.594  INFO 23152 --- [http-nio-9093-exec-10] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1071400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:12.778 DEBUG 23152 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:12.805  INFO 23152 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    30100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:12.965 DEBUG 23152 --- [http-nio-9093-exec-2] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:12.981  INFO 23152 --- [http-nio-9093-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    20600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:13.157 DEBUG 23152 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:13.176  INFO 23152 --- [http-nio-9093-exec-3] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    29200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:13.310 DEBUG 23152 --- [http-nio-9093-exec-4] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:13.327  INFO 23152 --- [http-nio-9093-exec-4] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    19500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:13.454 DEBUG 23152 --- [http-nio-9093-exec-5] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:13.471  INFO 23152 --- [http-nio-9093-exec-5] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    19100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:13.669 DEBUG 23152 --- [http-nio-9093-exec-6] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:13.692  INFO 23152 --- [http-nio-9093-exec-6] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    28500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:47:46.905 DEBUG 23152 --- [http-nio-9093-exec-7] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing47.csvFor Processing
+2021-01-26 14:47:46.926  INFO 23152 --- [http-nio-9093-exec-7] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    7037900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:48:00.600 DEBUG 23152 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 14:48:00.618 DEBUG 23152 --- [http-nio-9093-exec-8] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F://microservices//CsvFileRepository//MssFileProcessing48.csv
+2021-01-26 14:48:02.099 DEBUG 23152 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    :  ##Successfully Submitted : F://microservices//CsvFileRepository//MssFileProcessing48.csv
+2021-01-26 14:48:02.101  INFO 23152 --- [http-nio-9093-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1116000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    41358600 nanoseconds spent preparing 2000 JDBC statements;
+    400848100 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1077273100 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 14:50:28.052  INFO 23152 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 14:50:28.057  INFO 23152 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 14:50:40.413  INFO 16644 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 16644 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 14:50:40.415 DEBUG 16644 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 14:50:40.415  INFO 16644 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 14:50:40.662  INFO 16644 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.539 seconds (JVM running for 1.476)
+2021-01-26 14:52:29.967  INFO 11080 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Starting FabePayMSSBatchTests on Ashok with PID 11080 (started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 14:52:29.970 DEBUG 11080 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 14:52:29.971  INFO 11080 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : No active profile set, falling back to default profiles: default
+2021-01-26 14:52:30.335  INFO 11080 --- [main] c.b.f.springbatch.FabePayMSSBatchTests   : Started FabePayMSSBatchTests in 0.837 seconds (JVM running for 2.159)
+2021-01-26 14:52:42.016  INFO 12068 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 12068 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 14:52:42.020 DEBUG 12068 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 14:52:42.023  INFO 12068 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 14:52:44.827  INFO 12068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 14:52:44.828  INFO 12068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 14:52:44.937  INFO 12068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 14:52:45.496  INFO 12068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 14:52:45.660  INFO 12068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 14:52:45.987  INFO 12068 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 14:52:46.161  INFO 12068 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 14:52:47.050  INFO 12068 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 14:52:47.157  INFO 12068 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 14:54:35.260  INFO 12068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 15:08:23.081  INFO 12068 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:08:23.083  INFO 12068 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:08:23.170  INFO 12068 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:08:24.083  INFO 12068 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 943.053 seconds (JVM running for 943.76)
+2021-01-26 15:12:34.725  INFO 12068 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 15:12:34.743  INFO 12068 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 15:17:21.877  INFO 2572 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 2572 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 15:17:21.880 DEBUG 2572 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 15:17:21.881  INFO 2572 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 15:17:23.754  INFO 2572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 15:17:23.754  INFO 2572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 15:17:23.833  INFO 2572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 15:17:24.183  INFO 2572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 15:17:24.324  INFO 2572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 15:17:24.606  INFO 2572 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 15:17:24.757  INFO 2572 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 15:17:25.365  INFO 2572 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 15:17:25.409  INFO 2572 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 15:18:54.632  INFO 2572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 15:18:54.817  INFO 2572 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:18:54.819  INFO 2572 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:18:54.896  INFO 2572 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:18:55.888  INFO 2572 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 94.503 seconds (JVM running for 95.011)
+2021-01-26 15:24:00.328  INFO 2572 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 15:24:00.337  INFO 2572 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 15:24:19.943  INFO 11636 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 11636 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 15:24:19.946 DEBUG 11636 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 15:24:19.948  INFO 11636 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 15:24:21.859  INFO 11636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 15:24:21.860  INFO 11636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 15:24:21.936  INFO 11636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 15:24:22.286  INFO 11636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 15:24:22.412  INFO 11636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 15:24:22.660  INFO 11636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 15:24:22.827  INFO 11636 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 15:24:23.440  INFO 11636 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 15:24:23.489  INFO 11636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 15:25:51.059  INFO 11636 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 15:25:51.344  INFO 11636 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:25:51.347  INFO 11636 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:25:51.461  INFO 11636 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:25:52.664  INFO 11636 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 93.259 seconds (JVM running for 93.743)
+2021-01-26 15:26:02.230  INFO 11636 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 15:26:02.278 DEBUG 11636 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:26:02.459  INFO 11636 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1140500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:26:06.634 DEBUG 11636 --- [http-nio-9093-exec-2] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:26:06.876  INFO 11636 --- [http-nio-9093-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1866500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:26:17.291  INFO 11636 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 15:26:17.301  INFO 11636 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 15:27:44.813  INFO 18368 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 18368 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 15:27:44.816 DEBUG 18368 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 15:27:44.816  INFO 18368 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 15:27:46.692  INFO 18368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 15:27:46.693  INFO 18368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 15:27:46.765  INFO 18368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 15:27:47.131  INFO 18368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 15:27:47.261  INFO 18368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 15:27:47.520  INFO 18368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 15:27:47.666  INFO 18368 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 15:27:48.268  INFO 18368 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 15:27:48.312  INFO 18368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 15:29:17.302  INFO 18368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 15:29:17.477  INFO 18368 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:29:17.479  INFO 18368 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:29:17.561  INFO 18368 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:29:18.606  INFO 18368 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 94.304 seconds (JVM running for 94.793)
+2021-01-26 15:30:54.268  INFO 18368 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-26 15:30:54.321 DEBUG 18368 --- [http-nio-9093-exec-1] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:30:54.645  INFO 18368 --- [http-nio-9093-exec-1] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1326500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:30:55.580 DEBUG 18368 --- [http-nio-9093-exec-2] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:30:55.709  INFO 18368 --- [http-nio-9093-exec-2] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    2538700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:30:55.953 DEBUG 18368 --- [http-nio-9093-exec-3] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:30:56.214  INFO 18368 --- [http-nio-9093-exec-3] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    29300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:30:56.362 DEBUG 18368 --- [http-nio-9093-exec-4] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:30:56.587  INFO 18368 --- [http-nio-9093-exec-4] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    28600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:30:56.738 DEBUG 18368 --- [http-nio-9093-exec-5] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing48.csvFor Processing
+2021-01-26 15:30:56.926  INFO 18368 --- [http-nio-9093-exec-5] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    38600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:32:12.637 DEBUG 18368 --- [http-nio-9093-exec-7] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing49.csvFor Processing
+2021-01-26 15:32:12.809 DEBUG 18368 --- [http-nio-9093-exec-7] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F://microservices//CsvFileRepository//MssFileProcessing49.csv
+2021-01-26 15:32:22.722 DEBUG 18368 --- [http-nio-9093-exec-7] c.b.fabepay.controller.LoadController    :  ##Successfully Submitted : F://microservices//CsvFileRepository//MssFileProcessing49.csv
+2021-01-26 15:32:22.725  INFO 18368 --- [http-nio-9093-exec-7] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1062400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    94257200 nanoseconds spent preparing 2000 JDBC statements;
+    924387100 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5613842100 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:33:16.235 DEBUG 18368 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing50.csvFor Processing
+2021-01-26 15:33:16.274 DEBUG 18368 --- [http-nio-9093-exec-8] c.b.f.configuration.SpringBatchConfig    :  Item Reader Started for F://microservices//CsvFileRepository//MssFileProcessing50.csv
+2021-01-26 15:33:18.099 DEBUG 18368 --- [http-nio-9093-exec-8] c.b.fabepay.controller.LoadController    :  ##Successfully Submitted : F://microservices//CsvFileRepository//MssFileProcessing50.csv
+2021-01-26 15:33:18.101  INFO 18368 --- [http-nio-9093-exec-8] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    2511200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    37440400 nanoseconds spent preparing 2000 JDBC statements;
+    423191500 nanoseconds spent executing 2000 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1365812400 nanoseconds spent executing 25 flushes (flushing a total of 31000 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:34:51.595 DEBUG 18368 --- [http-nio-9093-exec-9] c.b.fabepay.controller.LoadController    : *Accepting the file F://microservices//CsvFileRepository//MssFileProcessing50.csvFor Processing
+2021-01-26 15:34:51.613  INFO 18368 --- [http-nio-9093-exec-9] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    1616900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:35:18.103  INFO 18368 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown initiated...
+2021-01-26 15:35:18.110  INFO 18368 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Shutdown completed.
+2021-01-26 15:35:23.321  INFO 16536 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Starting FabePayMSSBatch v0.0.1-SNAPSHOT on Ashok with PID 16536 (F:\microservices\Batch-Job-MSS\target\FabePayMSSBatch-0.0.1-SNAPSHOT.jar started by ervip in F:\microservices\Batch-Job-MSS)
+2021-01-26 15:35:23.324 DEBUG 16536 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2021-01-26 15:35:23.325  INFO 16536 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : No active profile set, falling back to default profiles: default
+2021-01-26 15:35:25.226  INFO 16536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-26 15:35:25.227  INFO 16536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-26 15:35:25.298  INFO 16536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-26 15:35:25.700  INFO 16536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-26 15:35:25.830  INFO 16536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-26 15:35:26.077  INFO 16536 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-26 15:35:26.226  INFO 16536 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Starting...
+2021-01-26 15:35:26.911  INFO 16536 --- [main] com.zaxxer.hikari.HikariDataSource       : SpringBootJPAHikariCP - Start completed.
+2021-01-26 15:35:26.966  INFO 16536 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-01-26 15:36:53.673  INFO 16536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-26 15:36:53.837  INFO 16536 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:36:53.838  INFO 16536 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:36:53.907  INFO 16536 --- [main] i.StatisticalLoggingSessionEventListener : Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2021-01-26 15:36:54.895  INFO 16536 --- [main] com.bankfab.fabepay.FabePayMSSBatch      : Started FabePayMSSBatch in 92.058 seconds (JVM running for 92.526)
+2021-01-26 16:30:06.161  WARN 16536 --- [SpringBootJPAHikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Thread starvation or clock leap detected (housekeeper delta=34m39s105ms688탎).
+2021-01-26 16:53:48.612  WARN 16536 --- [SpringBootJPAHikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Thread starvation or clock leap detected (housekeeper delta=8m42s416ms68탎700ns).
+2021-01-26 17:47:26.615  WARN 16536 --- [SpringBootJPAHikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool        : SpringBootJPAHikariCP - Thread starvation or clock leap detected (housekeeper delta=22m37s935ms903탎800ns).
